@@ -1,0 +1,18 @@
+{
+	"Modality": "MR",
+	"MagneticFieldStrength": 3,
+	"Manufacturer": "Siemens",
+	"InstitutionName": "Beijing Normal University",
+	"InstitutionalDepartmentName": "State Key Laboratory of Cognitive Neuroscience and Learning",
+	"InstitutionAddress": "19 Xinjiekouwai Avenue, Haidian Beijing, China",
+    "DeviceSerialNumber": "100875",
+    "MRAcquisitionType": "2D",
+	"SliceThickness": 1.33,
+	"EchoTime": 0.00339,
+	"RepetitionTime": 2.53,
+	"InversionTime": 1.1,
+	"FlipAngle": 7,
+	"BaseResolution": 256,
+	"ReconMatrixPE": 256,
+	"ConversionSoftware": "dcm2nii"
+}

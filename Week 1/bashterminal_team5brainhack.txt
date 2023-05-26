@@ -1,0 +1,51 @@
+Exercise 1 Starting from /Users/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /Users/amanda?
+
+  e) cd ~
+  h) cd
+  i) cd ..
+
+Based on the previous diagram, if pwd displays /Users/things, what will ls -F ../backup display?
+
+d) original/ pnas_final/ pnas_sub/
+
+2.2. Using the filesystem diagram, if pwd displays /Users/backup, and -r tells ls to display things in reverse (alphabetical) order, what command(s) will result in the following output:
+
+ pnas_sub/ pnas_final/ original/
+ 
+c) ls -rF /Users/backup
+
+Exercise 3 After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+$ mv sucrose.dat maltose.dat ../raw/
+
+Exercice 4 What is the output of the closing ls command in the sequence shown below:
+
+  $ pwd
+  /Users/jamie/data
+  $ ls
+  proteins.dat
+  $ mkdir recombine
+  $ mv proteins.dat recombine
+  $ cp recombine/proteins.dat ../proteins-saved.dat
+  $ ls
+  
+  
+ b) recombine
+
+Exercice 5 : Copy with Multiple Filenames In the example below, what does cp do when given several filenames and a directory name?
+
+After executing the command cp amino-acids.txt animals.txt morse.txt, the files amino-acids.txt, animals.txt, and morse.txt will be copied to the current directory, resulting in the following file structure:
+amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
+All three files will be present in the current directory.
+
+Exercise 6: List filenames matching a pattern When run in the proteins directory, which ls command(s) will produce this output?
+
+ethane.pdb methane.pdb
+
+c) ls *t??ne.pdb
+
+Exercise 7 : Renaming files Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
+
+After creating and saving this file you realize you misspelled the filename! You want to correct the mistake and remove the incorrectly named file. Which of the following commands could you use to do so?
+
+ mv statstics.txt statistics.txt
+

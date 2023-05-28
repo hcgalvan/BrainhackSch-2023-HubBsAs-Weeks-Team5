@@ -1,0 +1,16 @@
+
+Consider these statements/questions and answer them briefly in a saved doc:
+
+1. Give an example of a research question that you could use deep learning to solve.
+Can we create a deep learning model to classify attentional states based on EEG data recorded during a visual task?
+
+2. How would deep learning provide an advantage for solving the problem?
+It would be useful because deep learning models can learn patterns and relationshps directly from the EEG data. 
+We can use that information to train a large dataset of EEG recordings and the model would extract subtle and nonlinear features to distinguish between focused and distracted states. 
+
+3. Give an example of a research question for which deep learning would not be appropriate.
+What are the mechanisms involved in the consolidation of personal memories?
+
+4. What would be a disadvantage of deep learning compared to another method?
+It wouldn't be useful as its own because it will be able to recognize patterns but to answer that  we need a deeper understanding of biological and physiological processes involved.
+We believe it will be perhaps more useful to use more experimental techniques or a combination of them.
